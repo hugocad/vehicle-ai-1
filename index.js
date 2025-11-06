@@ -9,7 +9,7 @@ const {
 
 const app = express();
 const upload = multer({ storage: multer.memoryStorage() });
-const MODEL_NAME = "gemini-1.5-pro";
+const MODEL_NAME = "gemini-2.5-pro";
 const API_KEY = process.env.GOOGLE_API_KEY;
 
 app.set("view engine", "ejs");
